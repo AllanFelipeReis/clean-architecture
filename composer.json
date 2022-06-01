@@ -1,0 +1,19 @@
+{
+    "name": "allan/clean-architecture",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Allan Reis",
+            "email": "allanreis3006@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
