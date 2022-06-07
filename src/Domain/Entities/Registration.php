@@ -82,7 +82,7 @@ final class Registration
     /**
      * Get BirthDate
      *
-     * @return string
+     * @return \DateTimeInterface
      */
     public function getBirthDate(): \DateTimeInterface
     {
@@ -104,7 +104,7 @@ final class Registration
     /**
      * Get RegistrationAt
      *
-     * @return string
+     * @return \DateTimeInterface
      */
     public function getRegistrationAt(): \DateTimeInterface
     {
